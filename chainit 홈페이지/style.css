@@ -162,6 +162,10 @@ body {
 }
 
 .last {
+  width: 100%;
+}  
+
+.last-container {
   background-color: #120f3f;
   display: flex;
   flex-direction: column;
