@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0px;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #11172b;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-title {
+  display: flex;
+  justify-content: flex-start;
+  width: 640px;
+  margin: 0 auto;
+  padding: 12px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: Titillium Web;
+  color: #ffffff;
+}
+
+.logo {
+  height: 24px;
+  margin: 8px;
+}
+
+.accent {
+  font-weight: 600;
+  padding-right: 8px;
+}
+
+
+main {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.section.blue {
+  background-color: #ebeff8;
+  border-radius: 8px;
+  width: 100%;
+  padding: 24px 32px;
+  padding-bottom: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.departure-arrival-info {
+  display: flex;
+}
+
+.flight-img {
+  height: 12px;
+  margin: 8px;
+}
+
+.departure-arrival-info-container {
+  font-size: 16px;
+  color: #b3bdd5;
+  margin: 0px;
+}
+
+.where-to-go{
+  margin-top: 0px;
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-family: Titillium Web;
+  color: #000000;
+}
+
+.date {
+  padding: 8px 24px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  width: fit-content;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.caution {
+  font-size: 12px;
+  color: #b3bdd5;
+  margin-bottom: 0px;
+}
+
+#perforation {
+  border-bottom: 1px dotted #b6bfd3;
+  width: 100%;
+}
+
+section {
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding-left: 24px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ticket-num {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Titillium Web;
+  color: #16bf97;
+  margin: 0px;
+} 
+
+.line {
+  border-bottom: 1px solid #dbf1ec;
+}
+
+.main-info {
+  padding-top: 26px;
+}
+
+.main-info .departure-or-arrival {
+  font-size: 12px;
+  font-weight: 500;
+  color: #b3bdd5;
+  margin: 0px;
+}
+
+.main-timeline {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-timeline *{
+  margin-right: 10px;
+}
+
+.departure, .arrival {
+  font-weight: 700;
+  color: #1a345e;
+  font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.timeline-img {
+  width: 18px;
+}
+
+.tag{ 
+  font-size:12px;
+  font-weight: 500;
+  color: #b3bdd5;
+  margin: 0px;
+}
+
+.main-info .flight-info {
+  margin-top: 4px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: #0b1f66;
+}
+
+.select {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.select a{
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a345e;
+  margin-right: 24px;
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+#soldout.reserve {
+  font-size: 14px;
+  font-weight: 500;
+  color: #dce0e8;
+}
